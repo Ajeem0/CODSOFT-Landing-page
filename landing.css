@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+}
+header{
+    height: 5rem;
+    width: 80rem;
+    background-color: black;
+   position: fixed;
+   right: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 10;
+}
+.component{
+    height: 2rem;
+    width: 7rem;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12em;
+    margin: .2em;
+}
+#component1{
+    background-color: #8A9597;
+}
+#component2{
+    background-color: rgba(0, 255, 0,0.7);
+}
+#component3{
+    background-color: #E55137;
+}
+#component4{
+    background-color: #2271B3;
+}
+#component5{
+    background-color: #ffc033;
+}
+#logo{
+    color: white;
+    position: relative;
+   right: 12rem;
+   font-size: xx-large;
+
+}
+.About{
+    border-bottom: 2px solid black;
+    border-radius: 0em 0em 30em 0em;
+    padding-top: 10em;
+    height: 30rem;
+    width: 80rem;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(220 236 243);
+}
+#image{
+    height: 15rem;
+    width: 15rem;
+    background: url(/Yellow\ and\ Black\ Online\ Shop\ Business\ Logo.png);
+    background-size: cover;
+    transition: all .1s ease-in-out 0s;
+}
+.text{
+    text-align: center;
+    height: 5rem;
+    width: 60rem;
+    margin-bottom: 3em;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+}
+#About1{
+    height:2em;
+    width: 8em;
+    border-radius: 3em;
+    bottom: 5em;
+    left: 23em;
+    position: relative;
+    background-color: gray;
+    color: black;
+    font-size: medium;
+}
+.shop{
+    display: flex;
+    padding-top: 6em;
+    height: 60rem;
+    width: 80rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+   background-color: burlywood;
+}
+#element1{
+  height: 20rem;
+  width: 20rem;
+  background: url(/annie-spratt-5oL_tm-07Wo-unsplash.jpg);
+  background-size: contain;
+  border-radius: 2em;
+}
+#element2{
+  height: 20rem;
+  width: 20rem;
+  background: url(/annie-spratt-r7ZbF460CyA-unsplash.jpg);
+  background-size: contain;
+  border-radius: 2em;
+
+}
+#element3{
+  height: 20rem;
+  width: 20rem;
+  background: url(/annie-spratt-tSfTnX5qAOs-unsplash.jpg);
+  background-size: contain;
+  border-radius: 2em;
+
+}
+#element4{
+  height: 20rem;
+  width: 20rem;
+  background: url(/crew-9u2GMRE8MdE-unsplash.jpg);
+  background-size: contain;
+  border-radius: 2em;
+
+}
+#element5{
+  height: 20rem;
+  width: 20rem;
+  background: url(/sincerely-media-dyFOEr1InOE-unsplash.jpg);
+  background-size: contain;
+  border-radius: 2em;
+
+}
+#element6{
+  height: 20rem;
+  width: 20rem;
+  background: url(/fram\ pic.jpg);
+  background-size: contain;
+  border-radius: 2em;
+
+}
+.price{
+    height: 8em;
+    width: 20rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: -5em;
+    background-color: aliceblue;
+    border-radius: 2em;
+    transition: all .1s ease-in-out 0s;
+}
+button{
+    height:3em;
+    width: 8em;
+    border-radius: 3em;
+    background-color: black;
+    color: antiquewhite;
+    font-size: large;
+}
+.Value{
+    font-size: x-large;
+}
+#name {
+    top: 4rem;
+    position: relative;
+    font-size: 2em;
+    border-radius: 0em 0em 5em 0em;
+    height: 4rem;
+    width: 10rem;
+    background-color: lightblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Service{
+    
+    position: relative;
+    bottom: 4.5rem;
+    background-color: blanchedalmond;
+    margin-top: em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 28em;
+    width: 80em;
+    justify-content: space-evenly;
+}
+
+
+.services{
+    height: 20em;
+    width: 20em;
+}
+#name1{
+    bottom: 8px;
+    z-index: 1;
+    position: relative;
+    font-size: 2em;
+    border-radius: 0em 0em 5em 0em;
+    height: 4rem;
+    width: 10rem;
+    background-color: lightblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#service1{
+    height: 20rem;
+    width: 20rem;
+    background: url(/FREE\ DELIVERY\ POST\ TEMPLATE.png);
+    background-size: contain;
+    border-radius: 2em;
+    transition: all .1s ease-in-out 0s;
+}
+#service2{
+    height: 20rem;
+    width: 20rem;
+    background: url(/WhatsApp\ Image\ 2024-06-30\ at\ 11.17.42_39cf6782.jpg);
+    background-size: contain;
+    border-radius: 2em;
+    transition: all .1s ease-in-out 0s;
+}
+#service3{
+    height: 20rem;
+    width: 20rem;
+    background: url(/WhatsApp\ Image\ 2024-06-30\ at\ 11.17.43_10f6a832.jpg);
+    background-size: contain;
+    border-radius: 2em;
+    transition: all .1s ease-in-out 0s;
+}
+h2{
+    background-color: rgb(0, 0, 0);
+}
+#service1 h2{
+    border-radius: 0rem 0rem 2rem 2rem;
+    height: 2em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 18em;
+    font-size: medium;
+}
+#service2 h2{
+    border-radius: 0rem 0rem 2rem 2rem;
+    height: 2em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 18em;
+    font-size: medium;
+}
+#service3 h2{
+    border-radius: 0rem 0rem 2rem 2rem;
+    height: 2em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 18em;
+    font-size: medium;
+}
+
+.Contact{
+    padding-top: em;
+    height: 23rem;
+    width: 80rem;
+} 
+input{
+    margin-bottom: 10px;
+    height: 20px;
+    width: 20em;
+}
+#box{
+    height: 3rem;
+    width: 20em;
+}
+#email{
+    top: 156rem;
+    position: absolute;
+    left: 25em;
+}
+#phone{
+    top: 154rem;
+    position: absolute;
+    left: 25em;
+}
+#sub{
+    position: relative;
+   top: 1rem;
+}
+h3{
+    margin-bottom: 10px;
+    display: flex;
+    height: 2rem;
+    background-color: deepskyblue;
+    width: 8rem;
+    border-radius: 0em 5em 5em 0em;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    height: 3rem;
+    display: flex;
+    background-color: black;
+    margin-top: 5em;
+    align-items: center;
+}
+#copy{
+    color: white;
+}
+.log{
+    color: white;
+    position: relative;
+    left: 45rem;
+    margin-right: 20px;
+}
